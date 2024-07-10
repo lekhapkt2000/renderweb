@@ -1,1 +1,9 @@
-# renderweb
+# My Node App
+
+This is a simple Node.js app deployed on Render.com.
+
+## Installation
+
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm start` to start the server
