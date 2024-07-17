@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Node App</title>
+  <title>CRUD API Example</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my Node.js app deployed on Render.com</p>
+  <h1>CRUD API Example</h1>
+  <button id="getDataBtn">Get Data</button>
+  <div id="dataDisplay"></div>
+
+  <h2>Add New Item</h2>
+  <input type="text" id="newItemName" placeholder="Enter name">
+  <button id="addItemBtn">Add Item</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
